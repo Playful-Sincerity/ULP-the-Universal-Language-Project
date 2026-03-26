@@ -1,0 +1,274 @@
+direction: down
+
+title: ULP — Universal Language Project {
+  near: top-center
+  style: {
+    font-size: 28
+    bold: true
+    font-color: "#e0e0e0"
+  }
+}
+
+# ── Foundational Layer ──────────────────────────────────────────
+
+foundations: Foundations {
+  style: {
+    fill: "#1a1a2e"
+    stroke: "#4a90d9"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  binary: Binary Alphabet {
+    shape: hexagon
+    style: {
+      fill: "#16213e"
+      stroke: "#e94560"
+      font-color: "#ffffff"
+      bold: true
+    }
+  }
+
+  zero: "0 — Cut / Distinction\n(Individuator)" {
+    style: {
+      fill: "#0f3460"
+      stroke: "#e94560"
+      font-color: "#ffffff"
+    }
+  }
+
+  one: "1 — Closure / Presence\n(Unbounded existence)" {
+    style: {
+      fill: "#0f3460"
+      stroke: "#53d769"
+      font-color: "#ffffff"
+    }
+  }
+
+  binary -> zero: base symbol
+  binary -> one: base symbol
+}
+
+# ── Encoding Layer ──────────────────────────────────────────────
+
+encoding: Encoding System {
+  style: {
+    fill: "#1a1a2e"
+    stroke: "#f39c12"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  rle: Run-Length Encoding {
+    shape: hexagon
+    style: {
+      fill: "#16213e"
+      stroke: "#f39c12"
+      font-color: "#ffffff"
+      bold: true
+    }
+  }
+
+  type_from_length: "Type from run-length alone" {
+    style: {
+      fill: "#2c2c54"
+      stroke: "#f39c12"
+      font-color: "#e0e0e0"
+    }
+  }
+
+  self_delimit: "Self-delimiting parsing" {
+    style: {
+      fill: "#2c2c54"
+      stroke: "#f39c12"
+      font-color: "#e0e0e0"
+    }
+  }
+
+  compositionality: "Compositional\n(meaning from structure)" {
+    style: {
+      fill: "#2c2c54"
+      stroke: "#f39c12"
+      font-color: "#e0e0e0"
+    }
+  }
+
+  rle -> type_from_length
+  rle -> self_delimit
+  rle -> compositionality
+}
+
+# ── Structural Layer ────────────────────────────────────────────
+
+structure: Structural Grammar {
+  style: {
+    fill: "#1a1a2e"
+    stroke: "#9b59b6"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  trigram: "Trigram X.(ko)Z.\n(Left-Individuation Rule)" {
+    shape: hexagon
+    style: {
+      fill: "#16213e"
+      stroke: "#9b59b6"
+      font-color: "#ffffff"
+      bold: true
+    }
+  }
+
+  nesting: "Nesting = only operator\n(no external relational symbols)" {
+    style: {
+      fill: "#2c2c54"
+      stroke: "#9b59b6"
+      font-color: "#e0e0e0"
+    }
+  }
+
+  no_space: "No-space = containment\nSpace = transformation" {
+    style: {
+      fill: "#2c2c54"
+      stroke: "#9b59b6"
+      font-color: "#e0e0e0"
+    }
+  }
+
+  trigram -> nesting
+  trigram -> no_space
+}
+
+# ── Dimensional Ladder ──────────────────────────────────────────
+
+ladder: 13-Tier Dimensional Ladder {
+  style: {
+    fill: "#1a1a2e"
+    stroke: "#1abc9c"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  void: "Void" {
+    style: {fill: "#0a0a1a"; stroke: "#1abc9c"; font-color: "#888888"}
+  }
+  point: "Point" {
+    style: {fill: "#0f1525"; stroke: "#1abc9c"; font-color: "#aaaaaa"}
+  }
+  line: "Line" {
+    style: {fill: "#142030"; stroke: "#1abc9c"; font-color: "#cccccc"}
+  }
+  dots: "..." {
+    style: {fill: "#1a2a3e"; stroke: "#1abc9c"; font-color: "#888888"}
+  }
+  consciousness: "Consciousness" {
+    style: {fill: "#1f354c"; stroke: "#e94560"; font-color: "#ffffff"; bold: true}
+  }
+  universal: "Universal\nConsciousness" {
+    style: {fill: "#254060"; stroke: "#e94560"; font-color: "#ffffff"; bold: true}
+  }
+
+  void -> point -> line -> dots -> consciousness -> universal: geometric closure
+}
+
+# ── Open Problems ───────────────────────────────────────────────
+
+problems: Open Problems {
+  style: {
+    fill: "#2a1a1a"
+    stroke: "#e74c3c"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  boxing: "1. Boxing\n(self-delimiting grouping)" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"; bold: true}
+  }
+  identity: "2. Identity/Handles\n(runs >= 14)" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+  magnitude: "3. Continuous\nMagnitude" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+  negation: "4. Negation\n(domain-relative)" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+  visual_2d: "5. 2D Visual Syntax" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+  bridge: "6. ULP-IVNA Bridge" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+  alien: "7. Alien Convergence\nFormalization" {
+    style: {fill: "#3a1a1a"; stroke: "#e74c3c"; font-color: "#ff8888"}
+  }
+}
+
+# ── Connected Projects ──────────────────────────────────────────
+
+connections: Connected Projects {
+  style: {
+    fill: "#1a1a2e"
+    stroke: "#3498db"
+    border-radius: 12
+    font-color: "#e0e0e0"
+  }
+
+  ivna: "IVNA\n(Typed zeros/infinities)" {
+    shape: hexagon
+    style: {fill: "#16213e"; stroke: "#3498db"; font-color: "#88bbee"}
+  }
+  gdgm: "GDGM\n(Gravitationalist cosmology)" {
+    shape: hexagon
+    style: {fill: "#16213e"; stroke: "#3498db"; font-color: "#88bbee"}
+  }
+  lang: "Language Learning\n(Mandarin, Spanish)" {
+    shape: hexagon
+    style: {fill: "#16213e"; stroke: "#3498db"; font-color: "#88bbee"}
+  }
+  lean: "Lean 4\n(Formal proof target)" {
+    shape: hexagon
+    style: {fill: "#16213e"; stroke: "#3498db"; font-color: "#88bbee"}
+  }
+}
+
+# ── Cross-layer connections ─────────────────────────────────────
+
+foundations -> encoding: primitives feed
+encoding -> structure: type system enables
+structure -> ladder: grammar maps to
+
+ladder -> connections.gdgm: tier ladder mirrors cosmological arc {
+  style: {stroke-dash: 5; stroke: "#3498db"}
+}
+
+problems.bridge -> connections.ivna: unformalized bridge {
+  style: {stroke-dash: 5; stroke: "#e74c3c"}
+}
+
+connections.lang -> encoding: reverse-engineering epistemology {
+  style: {stroke-dash: 5; stroke: "#3498db"}
+}
+
+connections.lean -> structure: formalize unique parse (P1) {
+  style: {stroke-dash: 5; stroke: "#3498db"}
+}
+
+structure -> problems: unresolved at this layer {
+  style: {stroke-dash: 3; stroke: "#e74c3c"}
+}
+
+# ── Core Insight ────────────────────────────────────────────────
+
+insight: |md
+  **Core Insight**: `0` individuates by surrounding existence with nothing.
+  Without `0`, existence (`1`) is unbounded and universal.
+  All meaning emerges from string structure — nesting is the only operator.
+| {
+  near: bottom-center
+  style: {
+    fill: "#0f3460"
+    stroke: "#e94560"
+    font-color: "#e0e0e0"
+    border-radius: 8
+  }
+}
